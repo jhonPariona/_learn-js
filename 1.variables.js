@@ -27,22 +27,22 @@ const CONST_DECLARATION = "asignación";
  const const_global = "const global"
 
  if (true) {
-  // // // // console.log('🔥: var_global', var_global);
-  // // // // console.log('🔥: let_global', let_global);
-  // // // // console.log('🔥: const_global', const_global);
+  // // // // console.log('🔥: var_global', var_global); // ✔
+  // // // // console.log('🔥: let_global', let_global);  // ✔
+  // // // // console.log('🔥: const_global', const_global); // ✔
 }
 
 for (let index = 0; index < 1; index++) {
-  // // // // console.log('🔥: var_global', var_global);
-  // // // // console.log('🔥: let_global', let_global);
-  // // // // console.log('🔥: const_global', const_global);
+  // // // // console.log('🔥: var_global', var_global); // ✔
+  // // // // console.log('🔥: let_global', let_global); // ✔
+  // // // // console.log('🔥: const_global', const_global); // ✔
 
 }
 
 function name() {
-  // // // // console.log('🔥: var_global', var_global);
-  // // // // console.log('🔥: let_global', let_global);
-  // // // // console.log('🔥: const_global', const_global);
+  // // // // console.log('🔥: var_global', var_global); // ✔
+  // // // // console.log('🔥: let_global', let_global); // ✔
+  // // // // console.log('🔥: const_global', const_global); // ✔
 }
 
 name()
@@ -62,18 +62,18 @@ if (true) {
   let let_bloque = "let bloque";
   const const_bloque = "const bloque";
 
-  // // // console.log('🔥: var_bloque', var_bloque);
-  // // // console.log('🔥: let_bloque', let_bloque);
-  // // // console.log('🔥: const_bloque', const_bloque);
+  // // // console.log('🔥: var_bloque', var_bloque);  // ✔
+  // // // console.log('🔥: let_bloque', let_bloque);  // ✔
+  // // // console.log('🔥: const_bloque', const_bloque);  // ✔
 
 }
 
-// // // console.log('🔥: var_bloque', var_bloque);
+// // // console.log('🔥: var_bloque', var_bloque);  // ✔
 // // console.log('🔥: let_bloque', let_bloque); //let_bloque is not defined
 // // console.log('🔥: const_bloque', const_bloque); //const_bloque is not defined
 
 function nameBloque() {
-  // console.log('🔥: var_bloque', var_bloque);
+  // console.log('🔥: var_bloque', var_bloque); // ✔
   // // console.log('🔥: let_bloque', let_bloque); //let_bloque is not defined
   // // console.log('🔥: const_bloque', const_bloque); //const_bloque is not defined
 }
@@ -100,9 +100,9 @@ function namefunction() {
   let let_function = "let function";
   const const_function = "const function";
 
-  // console.log('🔥: var_function', var_function);
-  // console.log('🔥: let_function', let_function);
-  // console.log('🔥: const_function', const_function);
+  // console.log('🔥: var_function', var_function);  // ✔
+  // console.log('🔥: let_function', let_function); // ✔
+  // console.log('🔥: const_function', const_function); // ✔
 }
 
 namefunction();
