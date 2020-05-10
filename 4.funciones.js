@@ -1,7 +1,7 @@
 /**
  * name var camelCase
  * declared return always
- * var declared dentro of function only
+ * var declared in of function only
  * */
 
 function nameFunction(params) {
@@ -22,6 +22,28 @@ let nameFunctionAnon = function (params) {
 
 
 /*----------------------------------------------------------------------------/*
+  $ArrowFunctions
+/*----------------------------------------------------------------------------*/
+/**
+ * syntax sugar
+ */
+
+let nameArrowFunctions = (params)=>{
+  console.log('🔥: nameArrowFunctions -> params', params)
+  return params;
+}
+
+// return direct
+let nameArrowFunctionInLine = (params)=>console.log('🔥: params', params);
+
+// nameArrowFunctions("Argument");
+// nameArrowFunctionInLine("Arguments")
+
+
+
+
+
+/*----------------------------------------------------------------------------/*
   $Rest Parameters return all arguments in Array
 /*----------------------------------------------------------------------------*/
 
@@ -33,3 +55,15 @@ function name(...params) {
 
 // name("Argument1", "Argument2", "Argument3")
 
+
+
+/*----------------------------------------------------------------------------/*
+  $PureFunctions
+/*----------------------------------------------------------------------------*/
+/**
+ * cSpell:disable
+ *
+ * Fx que siempre que se pase un valor devuelve los mismos resultados.
+ *
+ * cSpell:enable
+ */
