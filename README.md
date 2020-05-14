@@ -24,19 +24,27 @@
 
 🦜 Usar siempre al inicio `"use strict";`
 
-## 🤩Variables
-
-🦜 Los nombres de las variables se llaman **identificadores**.
-
-🦜 Las variables en js son [hoisted(hosting)](hoisting.js) (**Al parecer solo aplica a var**)
-
 🦜 todas las variables deben terminar en punto y coma (No es necesario pero recomendado);
 
 🦜 Un identificador debe empezar por una letra, guión bajo o símbolo \$.
 
 🦜 **CaseSensitive** (distigue mayusculas de minúsculas)
 
-🦜 usar **camelCase** (RECOMENDADO)
+🦜 usar **camelCase** para los identificadores(RECOMENDADO)
+
+## 🤩Variables
+
+🦜 La **asignación** siempre va de **derecha a izquierda**. Todo a la derecha del `=` operador se resuelve antes de asignar el valor a la variable.
+
+🦜 Los **nombres** de las variables se llaman **identificadores**.
+
+🦜 Cuando se **declaran** las variables tienen un **valor inicial de undefined**.
+
+🦜 Si realiza una **operación matemática** con **undefined**, su resultado será lo **NaN** que significa "No es un número" .
+
+🦜 Si **concatena** una **cadena con una undefined**, obtendrá una **cadena literal con "undefined"**.
+
+🦜 Las variables var en js son [hoisted(hosting)](hoisting.js) (**Al parecer solo aplica a var**)
 
 ## ✨ Ámbito de variable
 
@@ -120,6 +128,61 @@ Valor en memoria que hace referencia a un identificador
 🦜 **ParseFloat** Convertir números a decimal
 
 ---
-## 💡 Operadores
 
-a
+## 💡 [Operadores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_())
+
+🦜 `Addition (+), Subtraction (-), Multiplication (*) y Division (/) Remainder (%) Exponentiation (**)`
+
+🦜 El operador remainder a veces se denomina incorrectamente operador de "módulo". Es muy similar al módulo, pero no funciona correctamente con números negativos.
+
+🦜 `-2 ** 2;` `(-2**2)` Da error ya que es ambiguo tenemos que ponerlo `-(2 ** 2);` o `(-2)**2`
+
+🦜 `** y ^` son diferentes (por ejemplo: `2 ** 3 === 8` cuándo `2 ^ 3 === 1`)
+
+🦜 `^` es operador [XOR LOGICO](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR)
+
+🦜 `a = a + 12;` podemos escribirlo como `a += 12`
+
+### Incremento
+
+- si tenemos `i = i + 1;` podemos escribirlo `i++;`
+
+```javascript
+// Postfix
+var x = 3;
+y = x++; // y = 3, x = 4
+
+// Prefix
+var a = 2;
+b = ++a; // a = 3, b = 3
+```
+
+### Decremento
+
+- si tenemos `i = i - 1;` podemos escribirlo `i--;`
+
+```javascript
+// Postfix
+var x = 3;
+y = x--; // y = 3, x = 2
+
+// Prefix
+var a = 2;
+b = --a; // a = 1, b = 1
+```
+
+### Unario +
+
+- intenta convertirlo en un número, si aún no lo está
+
+```javascript
++3     // 3
++'3'   // 3
++true  // 1
++false // 0
++null  // 0
+```
+
+### unario -
+
+- tbn puede convertir no numeros a números
