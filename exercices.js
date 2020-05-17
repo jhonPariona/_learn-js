@@ -35,7 +35,7 @@ let numbers = [-1, 1, 5];
 function sumArray(arrayNumbers) {
   let resultSuma = 0;
 
-  for(ch in arrayNumbers) {
+  for(let ch in arrayNumbers) {
     resultSuma += arrayNumbers[ch]
   };
 

@@ -7,6 +7,7 @@
 
  let nameDictionary = {
    clave: "valor",
+   //lgtm [js/overwritten-property]
    clave: "valor ultimo"
  }
  console.log('🔥: nameDictionary', nameDictionary)
@@ -92,6 +93,7 @@ console.log('🔥: saludar ->', saludar(dataUser))
 function countProperties(data) {
   let count = 0;
   for(let key in data){
+    console.log('🔥: countProperties -> key', key)
     count++
   }
   return count;
