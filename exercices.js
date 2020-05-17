@@ -19,11 +19,11 @@ function range(start, end, step=1) {
 
 // incrment
 let resultIncrement = range(2, 10, 2);
-console.log('🔥: resultIncrement', resultIncrement) [ 2, 4, 6, 8, 10 ]
+console.log('🔥: resultIncrement', resultIncrement)// [ 2, 4, 6, 8, 10 ]
 
 // decrement
 let resultDecrement = range(10, 5, -1)
-console.log('🔥: resultDecrement', resultDecrement)[ 10, 9, 8, 7, 6, 5 ]
+console.log('🔥: resultDecrement', resultDecrement) //[ 10, 9, 8, 7, 6, 5 ]
 
 
 /*----------------------------------------------------------------------------/*
