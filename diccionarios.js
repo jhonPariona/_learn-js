@@ -9,17 +9,17 @@
    clave: "valor",
    clave: "valor ultimo"
  }
- // console.log('🔥: nameDictionary', nameDictionary)
+ console.log('🔥: nameDictionary', nameDictionary)
 
  /*----------------------------------------------------------------------------/*
  $IntroducirValores
  /*----------------------------------------------------------------------------*/
  nameDictionary['clave_1'] = "valor"
- // console.log('🔥: ADD value', nameDictionary)
+ console.log('🔥: ADD value', nameDictionary)
 
  //  notacion punto
  nameDictionary.clave_2 = "valor"
- // console.log('🔥: ADD value dot notation', nameDictionary)
+ console.log('🔥: ADD value dot notation', nameDictionary)
 
 
 /*----------------------------------------------------------------------------/*
@@ -30,8 +30,8 @@
   $ForIn
 /*----------------------------------------------------------------------------*/
 for(let key in nameDictionary){
-  // console.log('🔥: key =>', key);
-  // console.log('🔥: value =>', nameDictionary[key]);
+  console.log('🔥: key =>', key);
+  console.log('🔥: value =>', nameDictionary[key]);
 }
 
 /*----------------------------------------------------------------------------/*
@@ -41,7 +41,7 @@ for(let key in nameDictionary){
  * Antes era usado
  */
 let keys = Object.keys(nameDictionary);
-// console.log('🔥: keys =>', keys)
+console.log('🔥: keys =>', keys)
 
 // algoritmo del object.keys
 function getKeys(dictionary) {
@@ -54,17 +54,17 @@ function getKeys(dictionary) {
   return aux;
 }
 let keysAlg = getKeys(nameDictionary);
-// console.log('🔥: keysAlg', keysAlg)
+console.log('🔥: keysAlg', keysAlg)
 
 
 //usar foreach con objet.keys
 Object.keys(nameDictionary).forEach(function (key) {
-  // console.log('🔥: key =>', key);
-  // console.log('🔥: value =>', nameDictionary[key]);
+  console.log('🔥: key =>', key);
+  console.log('🔥: value =>', nameDictionary[key]);
 })
 
 //usando arrow function
-// Object.keys(nameDictionary).forEach((key)=>console.log('🔥: key =>', key));
+Object.keys(nameDictionary).forEach((key)=>console.log('🔥: key =>', key));
 
 
 /*----------------------------------------------------------------------------/*
@@ -87,7 +87,7 @@ function saludar(data) {
   let msg = `Hola ${data.name} ${data.apellido}, vives en ${data.direccion.calle} N° ${data.direccion.numero} `
   return msg
 }
-// console.log('🔥: saludar ->', saludar(dataUser))
+console.log('🔥: saludar ->', saludar(dataUser))
 
 function countProperties(data) {
   let count = 0;
@@ -96,7 +96,7 @@ function countProperties(data) {
   }
   return count;
 }
-// console.log('🔥: countProperties ->', countProperties(dataUser))
+console.log('🔥: countProperties ->', countProperties(dataUser))
 
 /*----------------------------------------------------------------------------/*
   $CombinarDiccionarios
@@ -121,7 +121,7 @@ function joinDictionary(dictionary1, dictionary2) {
   return newDictionary;
 }
 
-//console.log(joinDictionary(dict1, dict2));
+console.log(joinDictionary(dict1, dict2));
 
 
 /*----------------------------------------------------------------------------/*
@@ -144,4 +144,4 @@ function winPlay(player1, player2) {
   return winner;
 }
 
-// console.log(winPlay("tijera", "papel"));
+console.log(winPlay("tijera", "papel"));

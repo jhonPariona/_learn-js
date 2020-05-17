@@ -10,7 +10,7 @@
    var pinto = 5;
  }
 
-//  nameFx(); //undefined
+nameFx(); //undefined
 
  /**
   * Lo que javascript hace es:
