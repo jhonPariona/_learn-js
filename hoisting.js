@@ -7,7 +7,9 @@
 
  function nameFx() {
    console.log(pinto);
+   //lgtm [js/use-before-declaration]
    var pinto = 5;
+   console.log('🔥: nameFx -> pinto', pinto)
  }
 
 nameFx(); //undefined
