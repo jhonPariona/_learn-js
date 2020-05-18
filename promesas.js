@@ -13,5 +13,5 @@ function pruebaPromesa() {
 }
 
 pruebaPromesa()
-.then((data)=>{console.log("El resultado es", data)})
+.then((data)=>{console.log("Correcto", data)})
 .catch(err => {console.log("error",err)})
