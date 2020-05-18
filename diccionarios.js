@@ -6,8 +6,7 @@
  */
 
  let nameDictionary = {
-   clave: "valor",
-   //lgtm [js/overwritten-property]
+   clave: "valor",//lgtm [js/overwritten-property]
    clave: "valor ultimo"
  }
  console.log('🔥: nameDictionary', nameDictionary)

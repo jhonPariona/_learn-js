@@ -1,5 +1,8 @@
 # 🏆 Learning [javascript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/context:javascript)
+
 > [🚀 Doc][📎 mdn](https://developer.mozilla.org/es/docs/Web/JavaScript) | [✨ Majo Apuntes](https://majoledesma.github.io/js-notes/)
 
 [Creado por Brendan Eich en Netscape](https://es.wikipedia.org/wiki/Brendan_Eich) |
@@ -19,6 +22,53 @@
   ```
 
 ⚡ **Funciones de Orden Superior** funciones que toman otras funciones como argumentos o funciones que retornan una función.
+
+<details>
+<summary>📜 Indice</summary>
+<ul>
+<li><a href="#-learning-javascript">🏆 Learning javascript</a>
+
+
+<ul>
+<li><a href="#-buenas-prácticas">✨ Buenas Prácticas</a></li>
+
+<li><a href="#variables">🤩Variables</a></li>
+
+<li><a href="#-Ámbito-de-variable">✨ Ámbito de variable</a></li>
+
+<li><a href="#global">Global</a></li>
+
+<li><a href="#local">Local</a></li>
+
+<li><a href="#bloque-es6">Bloque es6</a></li>
+
+<li><a href="#-tipos-de-datos-y-estructura-de-datos">🦊 Tipos de datos y estructura de datos</a>
+
+
+<ul>
+<li><a href="#tipo-de-datos-primitivos">Tipo de datos primitivos</a></li>
+
+<li><a href="#null">Null</a></li>
+
+<li><a href="#object">Object</a></li>
+
+<li><a href="#function">Function</a></li></ul>
+</li>
+
+<li><a href="#-casteo-o-conversión-de-tipos">✨ Casteo o conversión de tipos</a></li>
+
+<li><a href="#-operadores">💡 Operadores)</a></li>
+
+<li><a href="#incremento">Incremento</a></li>
+
+<li><a href="#decremento">Decremento</a></li>
+
+<li><a href="#unario-">Unario +</a></li>
+
+<li><a href="#unario--">unario -</a></li></ul>
+</li>
+</ul>
+</details>
 
 ## ✨ Buenas Prácticas
 
@@ -55,6 +105,10 @@ Variables declaradas fuera de una función. Disponibles Globalmente.
 ### Local
 
 Variables declaradas dentro de una función. Solo están disponibles dentro de dicha función.
+
+### Bloque es6
+
+variables Let y const declaradas dentro de `{ }` solo están visible dentro de dichos bloques
 
 ---
 
@@ -109,15 +163,19 @@ Valor en memoria que hace referencia a un identificador
 
 🦜 Todos los valores primitivos exepto `null` y `undefined` tienen equivalentes de objetos.
 
-    🦜 String para string primitive
-    🦜 Number para number primitive
-    🦜 Bigint para bigint primitive
-    🦜 Boolean para boolean primitive
-    🦜 Symbol para symbol primitive
+- 🦜 String para string primitive
+- 🦜 Number para number primitive
+- 🦜 Bigint para bigint primitive
+- 🦜 Boolean para boolean primitive
+- 🦜 Symbol para symbol primitive
 
 - **Diccionario {}**
 
 #### Function
+
+##### Arrow Functions
+
+Si detro de un [setTimeout](arrowFuncions.bucles.js) usamos this el contexto va a cambiar si usamos funcciones normales, pero si usamos arrow functions el contexto se mantendra.
 
 ---
 
@@ -134,7 +192,7 @@ Valor en memoria que hace referencia a un identificador
 🦜 `Addition (+), Subtraction (-), Multiplication (*) y Division (/) Remainder (%) Exponentiation (**)`
 
 🦜 El operador remainder a veces se denomina incorrectamente operador de "módulo". Es muy similar al módulo, pero no funciona correctamente con números negativos.
-
+`{ }`
 🦜 `-2 ** 2;` `(-2**2)` Da error ya que es ambiguo tenemos que ponerlo `-(2 ** 2);` o `(-2)**2`
 
 🦜 `** y ^` son diferentes (por ejemplo: `2 ** 3 === 8` cuándo `2 ^ 3 === 1`)
