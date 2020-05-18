@@ -1,5 +1,8 @@
 # 🏆 Learning [javascript](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/context:javascript)
+
 > [🚀 Doc][📎 mdn](https://developer.mozilla.org/es/docs/Web/JavaScript) | [✨ Majo Apuntes](https://majoledesma.github.io/js-notes/)
 
 [Creado por Brendan Eich en Netscape](https://es.wikipedia.org/wiki/Brendan_Eich) |
@@ -170,7 +173,9 @@ Valor en memoria que hace referencia a un identificador
 
 #### Function
 
-Si detro de un [setTimeout]() usamos this el contexto va a cambiar si usamos funcciones normales, pero si usamos arrow functions el contexto se mantendra.
+##### Arrow Functions
+
+Si detro de un [setTimeout](arrowFuncions.bucles.js) usamos this el contexto va a cambiar si usamos funcciones normales, pero si usamos arrow functions el contexto se mantendra.
 
 ---
 
