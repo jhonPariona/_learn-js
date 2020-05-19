@@ -29,8 +29,8 @@ restParameter("argument 1", "argument2", "argument 3") //[ 'argument 1', 'argume
 
  function returnValue() {
      console.log("Hello");
-     return;
-     console.log("Yo esty después");
+     return 0;
+     console.log("Yo esty después"); //lgtm [js/unreachable-statement]
  }
 
  console.log(returnValue()); //Hello undefined (hello es lo que imprime la fx y undefined es lo que retorna dicha fx)
