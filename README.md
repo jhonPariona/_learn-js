@@ -244,3 +244,7 @@ b = --a; // a = 1, b = 1
 ### unario -
 
 - tbn puede convertir no numeros a números
+
+## ✔ [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
+
+Métodos para realizar funciones matemáticas
