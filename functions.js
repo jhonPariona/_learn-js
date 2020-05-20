@@ -62,3 +62,4 @@ let identificatorFunctionAnon = function () {
 
 identificatorFunctionAnon()
 
+// TODO: Terminar functions de curso keepcoding
