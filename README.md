@@ -71,7 +71,7 @@ variables Let y const declaradas dentro de `{ }` solo están visible dentro de d
 
 Datos que no son [objetos](https://developer.mozilla.org/en-US/docs/Glossary/object) y no tienen [métodos](https://developer.mozilla.org/en-US/docs/Glossary/method) (propiedad de un objeto).
 
-#### [Strings](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.string.md#strings)
+### [Strings](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.string.md#strings)
 
 ```javascript
 let declarationVar = "asignation";
@@ -83,12 +83,12 @@ let declarationVar = "asignation";
 
 🦜 Si **concatena** una **cadena con una undefined**, obtendrá una **cadena literal con "undefined"**.
 
-#### [Number](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.number.md#number)
+### [Number](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.number.md#number)
 
 🦜 En la consola imprime azul
 
 
-#### [Arrow Functions](https://github.com/jhonPariona/_learn-js/blob/master/docs/function.arrow-functions.md#arrow-functions)
+### [Arrow Functions](https://github.com/jhonPariona/_learn-js/blob/master/docs/function.arrow-functions.md#arrow-functions)
 
 <hr/>
 
