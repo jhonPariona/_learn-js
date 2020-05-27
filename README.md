@@ -7,47 +7,7 @@
 <details>
 <summary>📜 Indice</summary>
 <ul>
-<li><a href="#-learning-javascript">🏆 Learning javascript</a>
-
-
-<ul>
-<li><a href="#-buenas-prácticas">✨ Buenas Prácticas</a></li>
-
-<li><a href="#variables">🤩Variables</a></li>
-
-<li><a href="#-Ámbito-de-variable">✨ Ámbito de variable</a></li>
-
-<li><a href="#global">Global</a></li>
-
-<li><a href="#local">Local</a></li>
-
-<li><a href="#bloque-es6">Bloque es6</a></li>
-
-<li><a href="#-tipos-de-datos-y-estructura-de-datos">🦊 Tipos de datos y estructura de datos</a>
-
-
-<ul>
-<li><a href="#tipo-de-datos-primitivos">Tipo de datos primitivos</a></li>
-
-<li><a href="#null">Null</a></li>
-
-<li><a href="#object">Object</a></li>
-
-<li><a href="#function">Function</a></li></ul>
-</li>
-
-<li><a href="#-casteo-o-conversión-de-tipos">✨ Casteo o conversión de tipos</a></li>
-
-<li><a href="#-operadores">💡 Operadores)</a></li>
-
-<li><a href="#incremento">Incremento</a></li>
-
-<li><a href="#decremento">Decremento</a></li>
-
-<li><a href="#unario-">Unario +</a></li>
-
-<li><a href="#unario--">unario -</a></li></ul>
-</li>
+<li><a href="#-learning-javascript">🏆 Learning javascript</a></li>
 </ul>
 </details>
 
@@ -59,36 +19,24 @@
 
 > [Udemy javascipt moderno Fernando Herrera](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/)
 
-## 🎩 History
+## 🎩 [History](https://github.com/jhonPariona/_learn-js/blob/master/docs/history.md#-history)
 
 - Creador [Brendan Eich en Netscape](https://es.wikipedia.org/wiki/Brendan_Eich)
 
 🦜 Primero se llamo **Mocha**, luego **LiveScript** despues **JavaScript**
 
-## ✨ **[Características](https://github.com/jhonPariona/_learn-js/blob/master/docs/caracteristicas.md#-caracter%C3%ADsticas**
+## ✨ **[Características](https://github.com/jhonPariona/_learn-js/blob/master/docs/caracteristicas.md#-caracter%C3%ADsticas)**
+
+## ✨ [Buenas Prácticas](https://github.com/jhonPariona/_learn-js/blob/master/docs/buenas-practicas.md#buenas-pr%C3%A1cticas)
 
 
-## ✨ Buenas Prácticas
-
-🦜 Usar siempre al inicio `"use strict";`
-
-🦜 todas las variables deben terminar en punto y coma (No es necesario pero recomendado);
-
-🦜 Un identificador debe empezar por una letra, guión bajo o símbolo \$.
-
-🦜 **CaseSensitive** (distigue mayusculas de minúsculas)
-
-🦜 usar **camelCase** para los identificadores(RECOMENDADO)
-
-## 🤩Variables
+## [🤩Variables](## 🤩Variables)
 
 🦜 La **asignación** siempre va de **derecha a izquierda**. Todo a la derecha del `=` operador se resuelve antes de asignar el valor a la variable.
 
 🦜 Los **nombres** de las variables se llaman **identificadores**.
 
 🦜 Cuando se **declaran** las variables tienen un **valor inicial de undefined**.
-
-🦜 Si realiza una **operación matemática** con **undefined**, su resultado será lo **NaN** que significa "No es un número" .
 
 🦜 Si **concatena** una **cadena con una undefined**, obtendrá una **cadena literal con "undefined"**.
 
@@ -110,68 +58,28 @@ variables Let y const declaradas dentro de `{ }` solo están visible dentro de d
 
 ---
 
-### 🦊 Tipos de datos y estructura de datos
+## 🦊 Tipos de datos y estructura de datos
 
-#### Tipo de datos [primitivos](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+### Tipo de datos [primitivos](https://github.com/jhonPariona/_learn-js/blob/master/docs/variables.primitive.md#tipos-de-datos-y-estructura-de-datos)
 
 Datos que no son [objetos](https://developer.mozilla.org/en-US/docs/Glossary/object) y no tienen [métodos](https://developer.mozilla.org/en-US/docs/Glossary/method) (propiedad de un objeto).
 
-🦜 Podemos usar `typeof` para saber el tipo de dato
-
-🦜 Un primitivo se puede reemplazar, pero no se puede alterar directamente (inmutable).
+#### [Strings](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.string.md#strings)
 
 ```javascript
-// Primitivos son inmmutables
-var bar = "baz";
-console.log(bar); // baz
-bar.toUpperCase();
-console.log(bar); // baz
-
-// Un Array si es mutable
-var foo = [];
-console.log(foo); // []
-foo.push("plugh");
-console.log(foo); // ["plugh"]
-
-// Pero si podemos reasignar un nuevo primitivo a una nueva variable
-bar = bar.toUpperCase(); // BAZ
+let declarationVar = "asignation";
 ```
 
-1. 🦜 **[undefined type](https://developer.mozilla.org/en-US/docs/Glossary/Undefined)** Asignado automáticamente a variables que fueron recientemente declaradas(No tienen un Tipo de dato asignado).
+🦜 Se pude usar `'` o `"`
 
-2. 🦜 **[Boolean type](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)** `true` o `false`
+🦜 En la consola imprime negro
 
-3. 🦜 **Number type** números hasta (2^53) - 1
+#### [Number]
 
-4. 🦜 **String type** se pueden iterar.
+🦜 En la consola imprime azul
 
-5. 🦜 **[BigInt type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)** número mayores a (2^53) - 1
 
-   - No puede usarse con `Math`
-
-6. 🦜 **[Symbol type](https://developer.mozilla.org/en-US/docs/Glossary/Symbol)** valor primitivo único e inmutable
-
-#### Null
-
-primitivo especial Caso especial para todos los objetos
-
-#### Object
-
-Valor en memoria que hace referencia a un identificador
-
-🦜 Todos los valores primitivos exepto `null` y `undefined` tienen equivalentes de objetos.
-
-- 🦜 String para string primitive
-- 🦜 Number para number primitive
-- 🦜 Bigint para bigint primitive
-- 🦜 Boolean para boolean primitive
-- 🦜 Symbol para symbol primitive
-
-- **Diccionario {}**
-
-#### Function
-
-##### Arrow Functions
+#### Arrow Functions
 
 Si detro de un [setTimeout](arrowFuncions.bucles.js) usamos this el contexto va a cambiar si usamos funcciones normales, pero si usamos arrow functions el contexto se mantendra.
 
@@ -188,6 +96,8 @@ Si detro de un [setTimeout](arrowFuncions.bucles.js) usamos this el contexto va 
 ## 💡 [Operadores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_())
 
 🦜 `Addition (+), Subtraction (-), Multiplication (*) y Division (/) Remainder (%) Exponentiation (**)`
+
+🦜 Si realiza una **operación matemática** con **undefined**, su resultado será lo **NaN** que significa "No es un número" .
 
 🦜 El operador remainder a veces se denomina incorrectamente operador de "módulo". Es muy similar al módulo, pero no funciona correctamente con números negativos.
 `{ }`
