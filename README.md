@@ -3,25 +3,6 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jhonPariona/_learn-js.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jhonPariona/_learn-js/context:javascript)
 
-> [🚀 Doc][📎 mdn](https://developer.mozilla.org/es/docs/Web/JavaScript) | [✨ Majo Apuntes](https://majoledesma.github.io/js-notes/)
-
-[Creado por Brendan Eich en Netscape](https://es.wikipedia.org/wiki/Brendan_Eich) |
-
-🦜 Primero se llamo **Mocha**, luego **LiveScript** despues **JavaScript**
-
-✨**Características**
-
-- 🦜 **[funciones como ciudadanos de primera clase](https://en.wikipedia.org/wiki/First-class_function)** (firts class citiziens), Las funciones pueden pasarse cómo argumento a otras funciones, devolverse como return de otras funciones, asignar funciones a variables, ...
-
-- 🦜 **loosely typed or a dynamic language** (Lenguaje dinámico) por que las variables no están asociadas directamente con un tipo de datos, sino que cualquier variable puede tener asignado y ser reasignado con cualquiera de los tipos de datos.
-
-  ```javascript
-  let foo = 42; // number
-  foo = "bar"; // string
-  foo = true; // boolean
-  ```
-
-⚡ **Funciones de Orden Superior** funciones que toman otras funciones como argumentos o funciones que retornan una función.
 
 <details>
 <summary>📜 Indice</summary>
@@ -69,6 +50,23 @@
 </li>
 </ul>
 </details>
+
+## 📖 Documentations
+
+> [🦊 mdn](https://developer.mozilla.org/es/docs/Web/JavaScript) | [✨ Majo Apuntes](https://majoledesma.github.io/js-notes/)
+
+## 📽️ Courses
+
+> [Udemy javascipt moderno Fernando Herrera](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/)
+
+## 🎩 History
+
+- Creador [Brendan Eich en Netscape](https://es.wikipedia.org/wiki/Brendan_Eich)
+
+🦜 Primero se llamo **Mocha**, luego **LiveScript** despues **JavaScript**
+
+## ✨ **[Características](https://github.com/jhonPariona/_learn-js/blob/master/docs/caracteristicas.md#-caracter%C3%ADsticas**
+
 
 ## ✨ Buenas Prácticas
 
