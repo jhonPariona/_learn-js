@@ -30,7 +30,7 @@
 ## ✨ [Buenas Prácticas](https://github.com/jhonPariona/_learn-js/blob/master/docs/buenas-practicas.md#buenas-pr%C3%A1cticas)
 
 
-## [🤩Variables](## 🤩Variables)
+## [🤩Variables](https://github.com/jhonPariona/_learn-js/blob/master/docs/variables.md#variables)
 
 🦜 La **asignación** siempre va de **derecha a izquierda**. Todo a la derecha del `=` operador se resuelve antes de asignar el valor a la variable.
 
@@ -74,7 +74,7 @@ let declarationVar = "asignation";
 
 🦜 En la consola imprime negro
 
-#### [Number]
+#### [Number](https://github.com/jhonPariona/_learn-js/blob/master/docs/varibles.number.md#number)
 
 🦜 En la consola imprime azul
 
