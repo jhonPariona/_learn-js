@@ -87,6 +87,10 @@ let declarationVar = "asignation";
 
 🦜 En la consola imprime azul
 
+#### ✔ [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
+
+Métodos para realizar funciones matemáticas
+
 
 ### [Arrow Functions](https://github.com/jhonPariona/_learn-js/blob/master/docs/function.arrow-functions.md#arrow-functions)
 
@@ -104,6 +108,3 @@ let declarationVar = "asignation";
 
 <hr/>
 
-## ✔ [Math](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math)
-
-Métodos para realizar funciones matemáticas
